@@ -15,6 +15,8 @@
 #include <vector>
 using namespace std;
 
+// NOTE: These are the path names defined. It obviously won't work on any computer except mine at this point, but if you change these paths to fit your computer, it will.
+
 #define RUNNERFILEPATH "/Users/katidid/Documents/COMP SCI 172/Exam 2/CS172 Exam 2/CS172 Exam 2/Runners.txt"
 #define WHITERUNNERS "/Users/katidid/Documents/COMP SCI 172/Exam 2/CS172 Exam 2/CS172 Exam 2/WhiteRunners.txt"
 #define YELLOWRUNNERS "/Users/katidid/Documents/COMP SCI 172/Exam 2/CS172 Exam 2/CS172 Exam 2/YellowRunners.txt"
@@ -164,6 +166,7 @@ int main()
     
 }
 
+// Function outputting to files by color, and printing out what is outputted for testing
 
 void outputToColorFile(vector<Runner> AllRunners, ofstream &FileName, int MinPace, int MaxPace, string Filenameforprinting)
 {
